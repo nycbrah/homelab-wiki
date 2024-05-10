@@ -3,8 +3,7 @@ const withNextra = require('nextra')({
   themeConfig: './theme.config.jsx'
 })
 
-module.exports = withNextra()
-
+const assetPrefix = "/homelab-wiki";
 
 const nextConfig = {
   images: {
@@ -14,6 +13,8 @@ const nextConfig = {
   swcMinify: true,
   trailingSlash: true,
   output: "export",
+  assetPrefix,
+  basePath: assetPrefix,
 };
 
 module.exports = {
