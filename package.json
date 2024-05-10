@@ -1,0 +1,23 @@
+{
+  "name": "homelab-wiki",
+  "version": "1.0.0",
+  "description": "wiki for my homelab",
+  "main": "index.js",
+  "repository": "https://github.com/nycbrah/homelab-wiki.git",
+  "author": "nycbrah <nycbrah@proton.m>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && touch out/.nojekyll"
+  },
+  "dependencies": {
+    "next": "^14.2.3",
+    "nextra": "^2.13.4",
+    "nextra-theme-docs": "^2.13.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
