@@ -3,7 +3,8 @@ const withNextra = require('nextra')({
   themeConfig: './theme.config.jsx'
 })
 
-const assetPrefix = "/homelab-wiki";
+const isProduction = process.env.NODE_ENV === "production";
+const assetPrefix = isProduction ? "/homelab-wiki" : "";
 
 const nextConfig = {
   images: {

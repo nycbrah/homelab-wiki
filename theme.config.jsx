@@ -3,7 +3,7 @@ export default {
   project: {
     link: 'https://github.com/nycbrah/homelab-wiki'
   },
-  docsRepositoryBase: 'https://github.com/nycbrah/homelab-wiki',
+  docsRepositoryBase: 'https://github.com/nycbrah/homelab-wiki/blob/main',
   darkMode: true,
   footer: {
     text: (

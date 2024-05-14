@@ -15,11 +15,15 @@
     "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
+    "@theguild/remark-mermaid": "^0.0.6",
     "gh-pages": "^6.1.1",
     "next": "^14.2.3",
     "nextra": "^2.13.4",
     "nextra-theme-docs": "^2.13.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.2"
   }
 }
