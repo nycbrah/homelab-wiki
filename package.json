@@ -1,29 +1,25 @@
 {
   "name": "homelab-wiki",
-  "version": "1.0.0",
   "description": "wiki for my homelab",
-  "main": "index.js",
   "repository": "https://github.com/nycbrah/homelab-wiki.git",
   "author": "nycbrah <nycbrah@proton.m>",
   "license": "MIT",
-  "private": false,
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "export": "next build && touch out/.nojekyll",
-    "deploy": "gh-pages -d out -t true"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "@theguild/remark-mermaid": "^0.0.6",
-    "gh-pages": "^6.1.1",
-    "next": "^14.2.3",
-    "nextra": "^2.13.4",
-    "nextra-theme-docs": "^2.13.4",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
-    "@types/react": "^18.3.2"
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/starlight": "^0.28.3",
+    "astro": "^4.15.3",
+    "sharp": "^0.32.5",
+    "starlight-image-zoom": "^0.8.0",
+    "starlight-theme-rapide": "^0.2.1",
+    "typescript": "^5.6.3"
   }
 }

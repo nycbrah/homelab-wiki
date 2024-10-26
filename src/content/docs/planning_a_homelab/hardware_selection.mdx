@@ -1,15 +1,18 @@
-import { Cards, Card } from 'nextra/components';
+---
+title: Hardware Selection
+description: Choosing which hardware to select
+---
 
-### Hardware Selection
+import {CardGrid, LinkCard} from '@astrojs/starlight/components';
 
 Buy what you can afford, or use what you already have. An old laptop lying around? Using an old laptop or any spare hardware can be a cost-effective way to dive into homelab projects. Below are some options if you do decide to buy some hardware.
 Personally, I went the Mini PCs route since I felt they were the best bang for your buck and I wanted a fleet of them (3 or more).
 
-<Cards>
-    <Card title="Mini PC" href="/resources/mini_pc/" />
-    <Card title="Raspberry Pi" href="/resources/raspberry_pi/" />
-    <Card title="Server" href="/resources/server/" />
-</Cards>
+<CardGrid>
+    <LinkCard title="Mini PC" href="/resources/mini_pc/" />
+    <LinkCard title="Raspberry Pi" href="/resources/raspberry_pi/" />
+    <LinkCard title="Server" href="/resources/server/" />
+</CardGrid>
 
 ### Comparison
 
