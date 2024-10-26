@@ -5,6 +5,7 @@ import starlightImageZoom from 'starlight-image-zoom'
 import starlightThemeRapide from 'starlight-theme-rapide'
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://nycbrah.github.io',
 	integrations: [
 		starlight({
 			title: 'My homelab Wiki',
